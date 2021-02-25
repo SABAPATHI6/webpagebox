@@ -1,0 +1,84 @@
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.top {
+  text-align: center;
+  color: #c3c7c5;
+  line-height: 15px;
+}
+p,
+h2 {
+  line-height: 15px;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-family: corbel;
+}
+.tophead {
+  font-size: 31px;
+  font-family: corbel;
+}
+img {
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+}
+.team {
+  box-shadow: 2px 2px 10px 10px #dad4d4;
+  border-radius: 12px 12px;
+  border-top: 5px solid rgb(240, 20, 20);
+  padding: 15px 15px;
+  width: 25%;
+  height: 200px;
+  line-height: 2px;
+  position: relative;
+}
+.supervisor {
+  box-shadow: 2px 2px 10px 10px #dad4d4;
+  border-radius: 12px 12px;
+  border-top: 5px solid rgb(240, 20, 20);
+  padding: 15px 15px;
+  width: 25%;
+  height: 200px;
+  position: relative;
+  border-top: 5px solid rgb(68, 184, 219);
+}
+.calculator {
+  box-shadow: 2px 2px 10px 10px #dad4d4;
+  border-radius: 12px 12px;
+  border-top: 5px solid rgb(240, 20, 20);
+  padding: 15px 15px;
+  width: 25%;
+  height: 200px;
+  position: relative;
+  border-top: 5px solid rgb(9, 117, 150);
+}
+.karma {
+  box-shadow: 2px 2px 10px 10px #dad4d4;
+  border-radius: 12px 12px;
+  border-top: 5px solid rgb(240, 20, 20);
+  padding: 15px 15px;
+  width: 25%;
+  height: 200px;
+  line-height: 2px;
+  position: relative;
+  border-top: 5px solid orange;
+}
+.team {
+  top: 30px;
+  left: 550px;
+}
+.supervisor {
+  left: 100px;
+  bottom: 20px;
+}
+.calculator {
+  left: 1000px;
+  bottom: 250px;
+}
+.karma {
+  left: 550px;
+  bottom: 400px;
+}
