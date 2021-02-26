@@ -6,8 +6,14 @@
         <title>webpage</title>
         <style>
             body{
+                width: 100%;
                 box-sizing: border-box;
-                font-family: 'Poppins', sans-serif;            
+                font-family: 'Poppins', sans-serif; 
+               
+                margin-left: 50px;
+                margin-top:20px; 
+                display: flex;
+                flex-direction: column;        
             }
             .top{
                 text-align: center;
@@ -75,23 +81,44 @@
                 position: relative;
                 border-top:5px solid orange;
                 }
+                @media screen and (max-width:100%) {
                 .team{
                     top:30px;
-                    left:550px;
+                    left:350px;
                 }
                 .supervisor{
-                    left:100px;
+                    left:50px;
                     bottom:20px;
                 }
                 .calculator{
-                    left:1000px;
+                    left:650px;
                     bottom:250px;
                 }
                 .karma{
-                    left:550px;
+                    left:350px;
                     bottom:400px;
                 }
-              
+                }
+              @media screen and (min-width:600px) {
+                .team{
+                    top:30px;
+                    left:350px;
+                }
+                .supervisor{
+                    left:50px;
+                    bottom:20px;
+                }
+                .calculator{
+                    left:650px;
+                    bottom:250px;
+                }
+                .karma{
+                    left:350px;
+                    bottom:400px;
+                }
+                  
+                  
+              }
 
              
             
